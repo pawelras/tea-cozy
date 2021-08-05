@@ -1,0 +1,135 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top:15px
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    border-bottom: solid 1px seashell;
+    background-color: black;
+}
+nav ul{
+    text-align: right;
+    margin-right: 10px;
+}
+nav a {
+    color: seashell;
+    text-decoration: underline;
+}
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+.header {
+    margin: auto;
+    max-width: 1200px;
+    height: 700px;
+    background-image: url('images/img-mission-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#mission {
+    background-color: black;
+    width: 100%;
+}
+.container h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.container h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#featured-tea {
+    margin-top: 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featured-tea figure {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#featured-tea img {
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#locations {
+    margin-top: 2rem;
+    max-width: 1200px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images//img-locations-background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+.square {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+#locations h2 {
+    height: 2rem;
+}
+
+address {
+    line-height: 3em;
+    font-style: normal;
+}
+
+.contact {
+    min-height: 200px;
+}
+
+footer {
+    text-align: left;
+    max-height: 20px;
+    font-size: .5rem;
+}
